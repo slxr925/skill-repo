@@ -5,7 +5,7 @@
 **沉淀 · 整理 · 复用 — 本地 AI Agent 技能仓库**
 
 [![GitHub](https://img.shields.io/badge/Platform-macOS-blue?logo=apple)]()
-[![GitHub](https://img.shields.io/badge/Skills-1-green?logo=git)]()
+[![GitHub](https://img.shields.io/badge/Skills-2-green?logo=git)]()
 [![GitHub](https://img.shields.io/badge/License-MIT-yellow)]()
 
 </div>
@@ -44,6 +44,21 @@ skills/
 ---
 
 ## 🚀 已收录的 Skill
+
+### 📄 slow-sql-design-docx
+
+> 根据慢 SQL 分析 Excel、上线包中的实际索引 DDL、以及 Word 模板，生成谨慎的慢 SQL 优化概要设计文档。
+
+| 特性 | 描述 |
+|:---:|---|
+| 📊 Excel 取证 | 读取慢 SQL 分类、原因、建议和整改状态 |
+| 🧾 脚本定界 | 以上线包 DDL 作为本次实施范围，不扩大描述 |
+| 📄 模板填充 | 保留 DOCX 模板结构，生成新文档而非覆盖原件 |
+| ✅ 校验优先 | 检查上线/回退 SQL、模板残留和未知字段 |
+
+👉 查看详情：[skills/slow-sql-design-docx](./skills/slow-sql-design-docx)
+
+---
 
 ### 📱 wechat-computer-use-send-message
 
