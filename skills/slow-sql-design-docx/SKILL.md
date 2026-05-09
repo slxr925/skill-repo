@@ -1,6 +1,6 @@
 ---
 name: slow-sql-design-docx
-description: Use when drafting or filling a Chinese banking/government-style slow SQL optimization outline/design DOCX from a slow SQL analysis Excel file, a Word template, and implementation scripts such as tar-packaged index DDL.
+description: Use when drafting or filling a Chinese enterprise-style slow SQL optimization outline/design DOCX from a slow SQL analysis Excel file, a Word template, and implementation scripts such as tar-packaged index DDL.
 ---
 
 # Slow SQL Design DOCX
