@@ -5,7 +5,7 @@
 **沉淀 · 整理 · 复用 — 本地 AI Agent 技能仓库**
 
 [![GitHub](https://img.shields.io/badge/Platform-macOS-blue?logo=apple)]()
-[![GitHub](https://img.shields.io/badge/Skills-3-green?logo=git)]()
+[![GitHub](https://img.shields.io/badge/Skills-4-green?logo=git)]()
 [![GitHub](https://img.shields.io/badge/License-MIT-yellow)]()
 
 </div>
@@ -87,6 +87,21 @@ skills/
 | 🗂️ Notion 同步 | 可写入用户指定的 Notion 页面或目录 |
 
 👉 查看详情：[skills/social-content-to-notion-md](./skills/social-content-to-notion-md)
+
+---
+
+### 🌐 codex-macos-local-http-proxy-reconnect
+
+> 解决 Codex Desktop 在 macOS 上反复 `reconnecting` 时，通过本地 HTTP 代理启动并写入 `~/.codex/.env` 的稳定配置流程。
+
+| 特性 | 描述 |
+|:---:|---|
+| 🧭 代理定位 | 从 Loon 或同类本地代理里确认可用的 HTTP 端口 |
+| 📝 环境写入 | 将代理变量写入 `~/.codex/.env`，兼容大小写环境变量 |
+| 🚀 稳定启动 | 用显式代理参数启动 Codex，减少直连抖动 |
+| ✅ 连通校验 | 用代理侧返回结果确认网络链路而不是猜测 |
+
+👉 查看详情：[skills/codex-macos-local-http-proxy-reconnect](./skills/codex-macos-local-http-proxy-reconnect)
 
 ---
 
