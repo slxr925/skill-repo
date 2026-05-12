@@ -1,0 +1,3 @@
+display_name: Canada IRCC Follow-Up
+short_description: Check delayed IRCC applications and prepare Web form inquiries.
+default_prompt: Help me check my Canadian IRCC application status and prepare a Web form follow-up if it is over normal processing time.

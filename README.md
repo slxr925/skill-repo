@@ -5,7 +5,7 @@
 **沉淀 · 整理 · 复用 — 本地 AI Agent 技能仓库**
 
 [![GitHub](https://img.shields.io/badge/Platform-macOS-blue?logo=apple)]()
-[![GitHub](https://img.shields.io/badge/Skills-4-green?logo=git)]()
+[![GitHub](https://img.shields.io/badge/Skills-5-green?logo=git)]()
 [![GitHub](https://img.shields.io/badge/License-MIT-yellow)]()
 
 </div>
@@ -44,6 +44,21 @@ skills/
 ---
 
 ## 🚀 已收录的 Skill
+
+### 🇨🇦 canada-ircc-visa-followup
+
+> 面向加拿大 IRCC 签证/移民申请超时、查进度和 Web form 催询的流程型 skill。
+
+| 特性 | 描述 |
+|:---:|---|
+| 🇨🇦 IRCC 路径 | 覆盖申请状态读取、官方处理时间核验和 Web form 入口选择 |
+| 🔐 隐私优先 | 输入个人信息和最终提交前都要求用户明确确认 |
+| ✍️ 英文模板 | 提供 visitor visa / temporary resident visa 超时询问模板 |
+| ✅ 提交核对 | 停在 review 页面核对字段，确认后才提交 |
+
+👉 查看详情：[skills/canada-ircc-visa-followup](./skills/canada-ircc-visa-followup)
+
+---
 
 ### 📄 slow-sql-design-docx
 
